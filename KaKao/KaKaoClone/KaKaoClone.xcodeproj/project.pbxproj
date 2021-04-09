@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC1A03BD2618767400391CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A03BC2618767400391CE3 /* AppDelegate.swift */; };
-		EC1A03BF2618767400391CE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A03BE2618767400391CE3 /* SceneDelegate.swift */; };
-		EC1A03C42618767400391CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A03C22618767400391CE3 /* Main.storyboard */; };
-		EC1A03C62618767400391CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1A03C52618767400391CE3 /* Assets.xcassets */; };
-		EC1A03C92618767400391CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1A03C72618767400391CE3 /* LaunchScreen.storyboard */; };
-		EC1A03D426187BFC00391CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A03D326187BFC00391CE3 /* ViewController.swift */; };
-		EC1A03D726187C9B00391CE3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A03D626187C9B00391CE3 /* FirstViewController.swift */; };
-		EC1A03DA26187CAC00391CE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1A03D926187CAC00391CE3 /* SecondViewController.swift */; };
+		EC2AF1BC261D8C7500420EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BB261D8C7500420EED /* AppDelegate.swift */; };
+		EC2AF1BE261D8C7500420EED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */; };
+		EC2AF1C0261D8C7500420EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BF261D8C7500420EED /* ViewController.swift */; };
+		EC2AF1C3261D8C7500420EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C1261D8C7500420EED /* Main.storyboard */; };
+		EC2AF1C5261D8C7500420EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C4261D8C7500420EED /* Assets.xcassets */; };
+		EC2AF1C8261D8C7500420EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */; };
+		EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */; };
+		EC2AF1D4261D8E6100420EED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1D3261D8E6100420EED /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC1A03B92618767400391CE3 /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1A03BC2618767400391CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC1A03BE2618767400391CE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC1A03C32618767400391CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC1A03C52618767400391CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC1A03C82618767400391CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC1A03CA2618767400391CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC1A03D326187BFC00391CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC1A03D626187C9B00391CE3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EC1A03D926187CAC00391CE3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC2AF1B8261D8C7500420EED /* KaKaoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKaoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2AF1BB261D8C7500420EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC2AF1BF261D8C7500420EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2AF1C2261D8C7500420EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2AF1C4261D8C7500420EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2AF1C7261D8C7500420EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2AF1C9261D8C7500420EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EC2AF1D3261D8E6100420EED /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC1A03B62618767400391CE3 /* Frameworks */ = {
+		EC2AF1B5261D8C7500420EED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +41,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC1A03B02618767300391CE3 = {
+		EC2AF1AF261D8C7500420EED = {
 			isa = PBXGroup;
 			children = (
-				EC1A03BB2618767400391CE3 /* Homework1 */,
-				EC1A03BA2618767400391CE3 /* Products */,
+				EC2AF1BA261D8C7500420EED /* KaKaoClone */,
+				EC2AF1B9261D8C7500420EED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC1A03BA2618767400391CE3 /* Products */ = {
+		EC2AF1B9261D8C7500420EED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC1A03B92618767400391CE3 /* Homework1.app */,
+				EC2AF1B8261D8C7500420EED /* KaKaoClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC1A03BB2618767400391CE3 /* Homework1 */ = {
+		EC2AF1BA261D8C7500420EED /* KaKaoClone */ = {
 			isa = PBXGroup;
 			children = (
-				EC1A03BC2618767400391CE3 /* AppDelegate.swift */,
-				EC1A03BE2618767400391CE3 /* SceneDelegate.swift */,
-				EC1A03C22618767400391CE3 /* Main.storyboard */,
-				EC1A03D626187C9B00391CE3 /* FirstViewController.swift */,
-				EC1A03D926187CAC00391CE3 /* SecondViewController.swift */,
-				EC1A03D326187BFC00391CE3 /* ViewController.swift */,
-				EC1A03C52618767400391CE3 /* Assets.xcassets */,
-				EC1A03C72618767400391CE3 /* LaunchScreen.storyboard */,
-				EC1A03CA2618767400391CE3 /* Info.plist */,
+				EC2AF1BB261D8C7500420EED /* AppDelegate.swift */,
+				EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */,
+				EC2AF1BF261D8C7500420EED /* ViewController.swift */,
+				EC2AF1C1261D8C7500420EED /* Main.storyboard */,
+				EC2AF1D3261D8E6100420EED /* SecondViewController.swift */,
+				EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */,
+				EC2AF1C4261D8C7500420EED /* Assets.xcassets */,
+				EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */,
+				EC2AF1C9261D8C7500420EED /* Info.plist */,
 			);
-			path = Homework1;
+			path = KaKaoClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC1A03B82618767400391CE3 /* Homework1 */ = {
+		EC2AF1B7261D8C7500420EED /* KaKaoClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC1A03CD2618767400391CE3 /* Build configuration list for PBXNativeTarget "Homework1" */;
+			buildConfigurationList = EC2AF1CC261D8C7500420EED /* Build configuration list for PBXNativeTarget "KaKaoClone" */;
 			buildPhases = (
-				EC1A03B52618767400391CE3 /* Sources */,
-				EC1A03B62618767400391CE3 /* Frameworks */,
-				EC1A03B72618767400391CE3 /* Resources */,
+				EC2AF1B4261D8C7500420EED /* Sources */,
+				EC2AF1B5261D8C7500420EED /* Frameworks */,
+				EC2AF1B6261D8C7500420EED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Homework1;
-			productName = Homework1;
-			productReference = EC1A03B92618767400391CE3 /* Homework1.app */;
+			name = KaKaoClone;
+			productName = KaKaoClone;
+			productReference = EC2AF1B8261D8C7500420EED /* KaKaoClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC1A03B12618767300391CE3 /* Project object */ = {
+		EC2AF1B0261D8C7500420EED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					EC1A03B82618767400391CE3 = {
+					EC2AF1B7261D8C7500420EED = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = EC1A03B42618767300391CE3 /* Build configuration list for PBXProject "Homework1" */;
+			buildConfigurationList = EC2AF1B3261D8C7500420EED /* Build configuration list for PBXProject "KaKaoClone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +115,57 @@
 				en,
 				Base,
 			);
-			mainGroup = EC1A03B02618767300391CE3;
-			productRefGroup = EC1A03BA2618767400391CE3 /* Products */;
+			mainGroup = EC2AF1AF261D8C7500420EED;
+			productRefGroup = EC2AF1B9261D8C7500420EED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC1A03B82618767400391CE3 /* Homework1 */,
+				EC2AF1B7261D8C7500420EED /* KaKaoClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC1A03B72618767400391CE3 /* Resources */ = {
+		EC2AF1B6261D8C7500420EED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1A03C92618767400391CE3 /* LaunchScreen.storyboard in Resources */,
-				EC1A03C62618767400391CE3 /* Assets.xcassets in Resources */,
-				EC1A03C42618767400391CE3 /* Main.storyboard in Resources */,
+				EC2AF1C8261D8C7500420EED /* LaunchScreen.storyboard in Resources */,
+				EC2AF1C5261D8C7500420EED /* Assets.xcassets in Resources */,
+				EC2AF1C3261D8C7500420EED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC1A03B52618767400391CE3 /* Sources */ = {
+		EC2AF1B4261D8C7500420EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1A03D426187BFC00391CE3 /* ViewController.swift in Sources */,
-				EC1A03BD2618767400391CE3 /* AppDelegate.swift in Sources */,
-				EC1A03BF2618767400391CE3 /* SceneDelegate.swift in Sources */,
-				EC1A03DA26187CAC00391CE3 /* SecondViewController.swift in Sources */,
-				EC1A03D726187C9B00391CE3 /* FirstViewController.swift in Sources */,
+				EC2AF1C0261D8C7500420EED /* ViewController.swift in Sources */,
+				EC2AF1BC261D8C7500420EED /* AppDelegate.swift in Sources */,
+				EC2AF1BE261D8C7500420EED /* SceneDelegate.swift in Sources */,
+				EC2AF1D4261D8E6100420EED /* SecondViewController.swift in Sources */,
+				EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC1A03C22618767400391CE3 /* Main.storyboard */ = {
+		EC2AF1C1261D8C7500420EED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC1A03C32618767400391CE3 /* Base */,
+				EC2AF1C2261D8C7500420EED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EC1A03C72618767400391CE3 /* LaunchScreen.storyboard */ = {
+		EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC1A03C82618767400391CE3 /* Base */,
+				EC2AF1C7261D8C7500420EED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EC1A03CB2618767400391CE3 /* Debug */ = {
+		EC2AF1CA261D8C7500420EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		EC1A03CC2618767400391CE3 /* Release */ = {
+		EC2AF1CB261D8C7500420EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,38 +289,38 @@
 			};
 			name = Release;
 		};
-		EC1A03CE2618767400391CE3 /* Debug */ = {
+		EC2AF1CD261D8C7500420EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQHZUCMHSH;
-				INFOPLIST_FILE = Homework1/Info.plist;
+				INFOPLIST_FILE = KaKaoClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = seungchan.Homework1;
+				PRODUCT_BUNDLE_IDENTIFIER = seungchan.KaKaoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EC1A03CF2618767400391CE3 /* Release */ = {
+		EC2AF1CE261D8C7500420EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQHZUCMHSH;
-				INFOPLIST_FILE = Homework1/Info.plist;
+				INFOPLIST_FILE = KaKaoClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = seungchan.Homework1;
+				PRODUCT_BUNDLE_IDENTIFIER = seungchan.KaKaoClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC1A03B42618767300391CE3 /* Build configuration list for PBXProject "Homework1" */ = {
+		EC2AF1B3261D8C7500420EED /* Build configuration list for PBXProject "KaKaoClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC1A03CB2618767400391CE3 /* Debug */,
-				EC1A03CC2618767400391CE3 /* Release */,
+				EC2AF1CA261D8C7500420EED /* Debug */,
+				EC2AF1CB261D8C7500420EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC1A03CD2618767400391CE3 /* Build configuration list for PBXNativeTarget "Homework1" */ = {
+		EC2AF1CC261D8C7500420EED /* Build configuration list for PBXNativeTarget "KaKaoClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC1A03CE2618767400391CE3 /* Debug */,
-				EC1A03CF2618767400391CE3 /* Release */,
+				EC2AF1CD261D8C7500420EED /* Debug */,
+				EC2AF1CE261D8C7500420EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC1A03B12618767300391CE3 /* Project object */;
+	rootObject = EC2AF1B0261D8C7500420EED /* Project object */;
 }

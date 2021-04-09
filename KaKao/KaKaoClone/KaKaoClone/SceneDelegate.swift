@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Homework1
+//  KaKaoClone
 //
-//  Created by 김승찬 on 2021/04/03.
+//  Created by 김승찬 on 2021/04/07.
 //
 
 import UIKit
