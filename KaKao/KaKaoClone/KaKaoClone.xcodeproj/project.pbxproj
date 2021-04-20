@@ -14,7 +14,15 @@
 		EC2AF1C5261D8C7500420EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C4261D8C7500420EED /* Assets.xcassets */; };
 		EC2AF1C8261D8C7500420EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */; };
 		EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */; };
-		EC2AF1D4261D8E6100420EED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1D3261D8E6100420EED /* SecondViewController.swift */; };
+		EC98128C262806FD00EAD549 /* Friendstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */; };
+		EC98128F2628072600EAD549 /* Messagestoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */; };
+		EC981293262807A800EAD549 /* Centerstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC981292262807A800EAD549 /* Centerstoryboard.storyboard */; };
+		EC981296262807CC00EAD549 /* Fourstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC981295262807CC00EAD549 /* Fourstoryboard.storyboard */; };
+		EC981299262807DE00EAD549 /* Fivestoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC981298262807DE00EAD549 /* Fivestoryboard.storyboard */; };
+		EC9812AC2628231000EAD549 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812AB2628231000EAD549 /* SecondViewController.swift */; };
+		EC9812AF2628237F00EAD549 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812AE2628237F00EAD549 /* MainTabBarController.swift */; };
+		EC9812FC2629609600EAD549 /* Friend1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812FB2629609600EAD549 /* Friend1ViewController.swift */; };
+		EC9812FF262960AF00EAD549 /* Friend2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +35,15 @@
 		EC2AF1C7261D8C7500420EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2AF1C9261D8C7500420EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EC2AF1D3261D8E6100420EED /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friendstoryboard.storyboard; sourceTree = "<group>"; };
+		EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messagestoryboard.storyboard; sourceTree = "<group>"; };
+		EC981292262807A800EAD549 /* Centerstoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Centerstoryboard.storyboard; sourceTree = "<group>"; };
+		EC981295262807CC00EAD549 /* Fourstoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fourstoryboard.storyboard; sourceTree = "<group>"; };
+		EC981298262807DE00EAD549 /* Fivestoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fivestoryboard.storyboard; sourceTree = "<group>"; };
+		EC9812AB2628231000EAD549 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC9812AE2628237F00EAD549 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		EC9812FB2629609600EAD549 /* Friend1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1ViewController.swift; sourceTree = "<group>"; };
+		EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +78,31 @@
 			children = (
 				EC2AF1BB261D8C7500420EED /* AppDelegate.swift */,
 				EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */,
-				EC2AF1BF261D8C7500420EED /* ViewController.swift */,
 				EC2AF1C1261D8C7500420EED /* Main.storyboard */,
-				EC2AF1D3261D8E6100420EED /* SecondViewController.swift */,
+				EC2AF1BF261D8C7500420EED /* ViewController.swift */,
 				EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */,
+				EC9812AB2628231000EAD549 /* SecondViewController.swift */,
+				EC9812AE2628237F00EAD549 /* MainTabBarController.swift */,
+				EC98129B262816A200EAD549 /* Tabstoryboard */,
 				EC2AF1C4261D8C7500420EED /* Assets.xcassets */,
 				EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */,
 				EC2AF1C9261D8C7500420EED /* Info.plist */,
 			);
 			path = KaKaoClone;
+			sourceTree = "<group>";
+		};
+		EC98129B262816A200EAD549 /* Tabstoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */,
+				EC9812FB2629609600EAD549 /* Friend1ViewController.swift */,
+				EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */,
+				EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */,
+				EC981292262807A800EAD549 /* Centerstoryboard.storyboard */,
+				EC981295262807CC00EAD549 /* Fourstoryboard.storyboard */,
+				EC981298262807DE00EAD549 /* Fivestoryboard.storyboard */,
+			);
+			path = Tabstoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +162,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC981293262807A800EAD549 /* Centerstoryboard.storyboard in Resources */,
 				EC2AF1C8261D8C7500420EED /* LaunchScreen.storyboard in Resources */,
+				EC98128F2628072600EAD549 /* Messagestoryboard.storyboard in Resources */,
+				EC981299262807DE00EAD549 /* Fivestoryboard.storyboard in Resources */,
+				EC981296262807CC00EAD549 /* Fourstoryboard.storyboard in Resources */,
 				EC2AF1C5261D8C7500420EED /* Assets.xcassets in Resources */,
 				EC2AF1C3261D8C7500420EED /* Main.storyboard in Resources */,
+				EC98128C262806FD00EAD549 /* Friendstoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +182,12 @@
 			files = (
 				EC2AF1C0261D8C7500420EED /* ViewController.swift in Sources */,
 				EC2AF1BC261D8C7500420EED /* AppDelegate.swift in Sources */,
+				EC9812AF2628237F00EAD549 /* MainTabBarController.swift in Sources */,
 				EC2AF1BE261D8C7500420EED /* SceneDelegate.swift in Sources */,
-				EC2AF1D4261D8E6100420EED /* SecondViewController.swift in Sources */,
+				EC9812AC2628231000EAD549 /* SecondViewController.swift in Sources */,
 				EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */,
+				EC9812FC2629609600EAD549 /* Friend1ViewController.swift in Sources */,
+				EC9812FF262960AF00EAD549 /* Friend2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

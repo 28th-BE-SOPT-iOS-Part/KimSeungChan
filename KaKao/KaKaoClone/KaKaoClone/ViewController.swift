@@ -19,19 +19,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     
     }
-    
-
     @IBAction func loginButton(_ sender: UIButton) {
     
         if loginornumberField.text != "" && passwordTextField.text != ""
         {
             guard let nextVC =
-                    self.storyboard?.instantiateViewController(identifier: "SecondViewController")
-                    as? SecondViewController else { return }
+                    self.storyboard?.instantiateViewController(identifier: "MainTabBarController")
+                    as? MainTabBarController else { return }
             
-            nextVC.message = loginornumberField.text!
+            self.navigationController?
+                .pushViewController(nextVC, animated: true)
             
-            self.present(nextVC, animated: true, completion: nil)
+            //self.navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
+
         }        
         
     }

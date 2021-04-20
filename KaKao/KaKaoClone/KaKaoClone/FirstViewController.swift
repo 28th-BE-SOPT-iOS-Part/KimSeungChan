@@ -22,14 +22,19 @@ class FirstViewController: UIViewController {
         if login2TextField.text != "" && password1TextField.text != "" && password2TextField.text != ""
         {
         guard let nextVC =
-                self.storyboard?.instantiateViewController(identifier: "SecondViewController")
-                as? SecondViewController else { return }
+                self.storyboard?.instantiateViewController(identifier: "MainTabBarController")
+                as? MainTabBarController else { return }
         
-        nextVC.message = login2TextField.text!
+         //nextVC.message = login2TextField.text!
         
-        self.present(nextVC, animated: true, completion: nil)
+            self.navigationController?
+                .pushViewController(nextVC, animated: true)
+            
+            //self.navigationItem.backBarButtonItem?.title = ""
+
+
         
-            self.navigationController?.popViewController(animated: true)
+            //self.navigationController?.popViewController(animated: true)
             
         }
         
