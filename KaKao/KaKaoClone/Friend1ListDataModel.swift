@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+struct Friend1ListDataModel
+{
+    var profileImageName : String
+    var title : String
+    var subtitle : String
+}

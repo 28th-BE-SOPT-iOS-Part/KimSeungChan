@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7010158E57902CA582840F50 /* Pods_KaKaoClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AEABA072DB8E190B644705 /* Pods_KaKaoClone.framework */; };
+		EC1C46842644E13200AA358C /* FiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1C46832644E13200AA358C /* FiveCollectionViewCell.swift */; };
+		EC21141C264E96E1007099CE /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21141B264E96E1007099CE /* APIConstants.swift */; };
+		EC21141E264E9FA0007099CE /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21141D264E9FA0007099CE /* NetworkResult.swift */; };
+		EC211420264EA1BA007099CE /* SignupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21141F264EA1BA007099CE /* SignupDataModel.swift */; };
+		EC211422264EA1ED007099CE /* LoginDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC211421264EA1ED007099CE /* LoginDataModel.swift */; };
 		EC2AF1BC261D8C7500420EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BB261D8C7500420EED /* AppDelegate.swift */; };
 		EC2AF1BE261D8C7500420EED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */; };
 		EC2AF1C0261D8C7500420EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1BF261D8C7500420EED /* ViewController.swift */; };
@@ -14,6 +20,9 @@
 		EC2AF1C5261D8C7500420EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C4261D8C7500420EED /* Assets.xcassets */; };
 		EC2AF1C8261D8C7500420EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */; };
 		EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */; };
+		EC61BE64264EACD100C46A67 /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61BE63264EACD100C46A67 /* SignupService.swift */; };
+		EC61BE66264EADA900C46A67 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61BE65264EADA900C46A67 /* LoginService.swift */; };
+		EC61BE68264EAFCC00C46A67 /* UIViewController + makeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61BE67264EAFCC00C46A67 /* UIViewController + makeAlert.swift */; };
 		EC98128C262806FD00EAD549 /* Friendstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */; };
 		EC98128F2628072600EAD549 /* Messagestoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */; };
 		EC981293262807A800EAD549 /* Centerstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC981292262807A800EAD549 /* Centerstoryboard.storyboard */; };
@@ -23,9 +32,21 @@
 		EC9812AF2628237F00EAD549 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812AE2628237F00EAD549 /* MainTabBarController.swift */; };
 		EC9812FC2629609600EAD549 /* Friend1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812FB2629609600EAD549 /* Friend1ViewController.swift */; };
 		EC9812FF262960AF00EAD549 /* Friend2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */; };
+		ECA3E4682643A3470057965D /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3E4672643A3470057965D /* FiveViewController.swift */; };
+		ECC33F2E26450D6400BA6DE4 /* FiveDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC33F2D26450D6400BA6DE4 /* FiveDataModel.swift */; };
+		ECD23353263D241C0073D335 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD23352263D241C0073D335 /* FirstTableViewCell.swift */; };
+		ECD23356263D33850073D335 /* Friend1ListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD23355263D33850073D335 /* Friend1ListDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DCD90B72F91EA95CC908A78 /* Pods-KaKaoClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaoClone.debug.xcconfig"; path = "Target Support Files/Pods-KaKaoClone/Pods-KaKaoClone.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6F29FE6F210862631023A5 /* Pods-KaKaoClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaKaoClone.release.xcconfig"; path = "Target Support Files/Pods-KaKaoClone/Pods-KaKaoClone.release.xcconfig"; sourceTree = "<group>"; };
+		23AEABA072DB8E190B644705 /* Pods_KaKaoClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaKaoClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C46832644E13200AA358C /* FiveCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC21141B264E96E1007099CE /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		EC21141D264E9FA0007099CE /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		EC21141F264EA1BA007099CE /* SignupDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupDataModel.swift; sourceTree = "<group>"; };
+		EC211421264EA1ED007099CE /* LoginDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataModel.swift; sourceTree = "<group>"; };
 		EC2AF1B8261D8C7500420EED /* KaKaoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKaoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC2AF1BB261D8C7500420EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +56,9 @@
 		EC2AF1C7261D8C7500420EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC2AF1C9261D8C7500420EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EC61BE63264EACD100C46A67 /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		EC61BE65264EADA900C46A67 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		EC61BE67264EAFCC00C46A67 /* UIViewController + makeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + makeAlert.swift"; sourceTree = "<group>"; };
 		EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friendstoryboard.storyboard; sourceTree = "<group>"; };
 		EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messagestoryboard.storyboard; sourceTree = "<group>"; };
 		EC981292262807A800EAD549 /* Centerstoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Centerstoryboard.storyboard; sourceTree = "<group>"; };
@@ -44,6 +68,10 @@
 		EC9812AE2628237F00EAD549 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		EC9812FB2629609600EAD549 /* Friend1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1ViewController.swift; sourceTree = "<group>"; };
 		EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2ViewController.swift; sourceTree = "<group>"; };
+		ECA3E4672643A3470057965D /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		ECC33F2D26450D6400BA6DE4 /* FiveDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDataModel.swift; sourceTree = "<group>"; };
+		ECD23352263D241C0073D335 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		ECD23355263D33850073D335 /* Friend1ListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1ListDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +79,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7010158E57902CA582840F50 /* Pods_KaKaoClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236D37F6FBFE9E429358D8FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCD90B72F91EA95CC908A78 /* Pods-KaKaoClone.debug.xcconfig */,
+				1D6F29FE6F210862631023A5 /* Pods-KaKaoClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B5E3FED405B6AB1F21DC854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23AEABA072DB8E190B644705 /* Pods_KaKaoClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC131527263A7A3A0021BF8F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EC2AF1BF261D8C7500420EED /* ViewController.swift */,
+				EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */,
+				EC9812AB2628231000EAD549 /* SecondViewController.swift */,
+				EC9812AE2628237F00EAD549 /* MainTabBarController.swift */,
+				EC9812FB2629609600EAD549 /* Friend1ViewController.swift */,
+				EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */,
+				ECD23352263D241C0073D335 /* FirstTableViewCell.swift */,
+				ECA3E4672643A3470057965D /* FiveViewController.swift */,
+				EC1C46832644E13200AA358C /* FiveCollectionViewCell.swift */,
+				EC61BE67264EAFCC00C46A67 /* UIViewController + makeAlert.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		EC2AF1AF261D8C7500420EED = {
 			isa = PBXGroup;
 			children = (
+				ECD23355263D33850073D335 /* Friend1ListDataModel.swift */,
 				EC2AF1BA261D8C7500420EED /* KaKaoClone */,
 				EC2AF1B9261D8C7500420EED /* Products */,
+				236D37F6FBFE9E429358D8FC /* Pods */,
+				9B5E3FED405B6AB1F21DC854 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,28 +145,38 @@
 				EC2AF1BB261D8C7500420EED /* AppDelegate.swift */,
 				EC2AF1BD261D8C7500420EED /* SceneDelegate.swift */,
 				EC2AF1C1261D8C7500420EED /* Main.storyboard */,
-				EC2AF1BF261D8C7500420EED /* ViewController.swift */,
-				EC2AF1D0261D8E4C00420EED /* FirstViewController.swift */,
-				EC9812AB2628231000EAD549 /* SecondViewController.swift */,
-				EC9812AE2628237F00EAD549 /* MainTabBarController.swift */,
+				EC131527263A7A3A0021BF8F /* VC */,
 				EC98129B262816A200EAD549 /* Tabstoryboard */,
 				EC2AF1C4261D8C7500420EED /* Assets.xcassets */,
 				EC2AF1C6261D8C7500420EED /* LaunchScreen.storyboard */,
 				EC2AF1C9261D8C7500420EED /* Info.plist */,
+				EC21141B264E96E1007099CE /* APIConstants.swift */,
+				EC21141D264E9FA0007099CE /* NetworkResult.swift */,
+				EC61BE65264EADA900C46A67 /* LoginService.swift */,
+				EC61BE63264EACD100C46A67 /* SignupService.swift */,
 			);
 			path = KaKaoClone;
+			sourceTree = "<group>";
+		};
+		EC61BE69264EBAF900C46A67 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC211421264EA1ED007099CE /* LoginDataModel.swift */,
+				EC21141F264EA1BA007099CE /* SignupDataModel.swift */,
+				ECC33F2D26450D6400BA6DE4 /* FiveDataModel.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		EC98129B262816A200EAD549 /* Tabstoryboard */ = {
 			isa = PBXGroup;
 			children = (
 				EC98128B262806FD00EAD549 /* Friendstoryboard.storyboard */,
-				EC9812FB2629609600EAD549 /* Friend1ViewController.swift */,
-				EC9812FE262960AF00EAD549 /* Friend2ViewController.swift */,
 				EC98128E2628072600EAD549 /* Messagestoryboard.storyboard */,
 				EC981292262807A800EAD549 /* Centerstoryboard.storyboard */,
 				EC981295262807CC00EAD549 /* Fourstoryboard.storyboard */,
 				EC981298262807DE00EAD549 /* Fivestoryboard.storyboard */,
+				EC61BE69264EBAF900C46A67 /* DataModel */,
 			);
 			path = Tabstoryboard;
 			sourceTree = "<group>";
@@ -112,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC2AF1CC261D8C7500420EED /* Build configuration list for PBXNativeTarget "KaKaoClone" */;
 			buildPhases = (
+				B9EBE9F27E4E6D2DD9BFECAA /* [CP] Check Pods Manifest.lock */,
 				EC2AF1B4261D8C7500420EED /* Sources */,
 				EC2AF1B5261D8C7500420EED /* Frameworks */,
 				EC2AF1B6261D8C7500420EED /* Resources */,
+				0ABDAFCC03ECBC6418147547 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,18 +253,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ABDAFCC03ECBC6418147547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaKaoClone/Pods-KaKaoClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaKaoClone/Pods-KaKaoClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaKaoClone/Pods-KaKaoClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EBE9F27E4E6D2DD9BFECAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaKaoClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC2AF1B4261D8C7500420EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61BE66264EADA900C46A67 /* LoginService.swift in Sources */,
+				ECD23353263D241C0073D335 /* FirstTableViewCell.swift in Sources */,
+				EC211420264EA1BA007099CE /* SignupDataModel.swift in Sources */,
+				ECC33F2E26450D6400BA6DE4 /* FiveDataModel.swift in Sources */,
+				EC61BE64264EACD100C46A67 /* SignupService.swift in Sources */,
 				EC2AF1C0261D8C7500420EED /* ViewController.swift in Sources */,
 				EC2AF1BC261D8C7500420EED /* AppDelegate.swift in Sources */,
 				EC9812AF2628237F00EAD549 /* MainTabBarController.swift in Sources */,
 				EC2AF1BE261D8C7500420EED /* SceneDelegate.swift in Sources */,
+				EC21141E264E9FA0007099CE /* NetworkResult.swift in Sources */,
+				ECD23356263D33850073D335 /* Friend1ListDataModel.swift in Sources */,
+				EC61BE68264EAFCC00C46A67 /* UIViewController + makeAlert.swift in Sources */,
 				EC9812AC2628231000EAD549 /* SecondViewController.swift in Sources */,
+				EC21141C264E96E1007099CE /* APIConstants.swift in Sources */,
 				EC2AF1D1261D8E4C00420EED /* FirstViewController.swift in Sources */,
+				EC211422264EA1ED007099CE /* LoginDataModel.swift in Sources */,
+				EC1C46842644E13200AA358C /* FiveCollectionViewCell.swift in Sources */,
 				EC9812FC2629609600EAD549 /* Friend1ViewController.swift in Sources */,
+				ECA3E4682643A3470057965D /* FiveViewController.swift in Sources */,
 				EC9812FF262960AF00EAD549 /* Friend2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +463,7 @@
 		};
 		EC2AF1CD261D8C7500420EED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCD90B72F91EA95CC908A78 /* Pods-KaKaoClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -350,6 +483,7 @@
 		};
 		EC2AF1CE261D8C7500420EED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6F29FE6F210862631023A5 /* Pods-KaKaoClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
